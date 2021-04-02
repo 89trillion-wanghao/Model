@@ -5,6 +5,9 @@
 public class AnimatorControl : MonoBehaviour
 {
     private Animator infantryAnimator;
+    /// <summary>
+    /// 游戏入口
+    /// </summary>
     void Start()
     {
         infantryAnimator = GetComponent<Animator>();
